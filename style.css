@@ -10,8 +10,8 @@ img {
   height: 25rem;
   object-fit: cover;
   cursor: pointer;
-  transition: width 0.5s ease-in-out;
-  /* transition: all 0.5s cubic-bezier(0.61, -0.19, 0.7, -0.11); */
+  /* transition: width 0.5s ease-in-out; */
+  transition: all 0.5s cubic-bezier(0.61, -0.19, 0.7, -0.11);
 }
 
 .activate__fullview {
@@ -34,6 +34,7 @@ body {
   padding: 2rem;
   background: #fff;
   border: 2px solid #ccc;
+  overflow-x: hidden;
 }
 
 .flexy .flex {
